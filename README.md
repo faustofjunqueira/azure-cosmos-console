@@ -2,9 +2,9 @@
 
 ## How to Install
 
-This application was developed in Node.JS, then you need use a node js version `10.16.x` or higher.
+This application was developed in Node.JS, so you need to use a node js version `10.16.x` or higher.
 
-After close or download, you need install the packages:
+After closing or downloading, you need to install the packages:
 
 ```
 npm install
@@ -14,11 +14,11 @@ Now, you are ready to code!
 
 ## How to code
 
-In your project, in the root directory, you have two files, `config.js` and `index.js`.
+In your project, in the root directory, you have two files: `config.js` and `index.js`.
 
-The `config.js`, you are going to configurate you azure access. Put your azure cosmos credentials.
+In the `config.js`, you are going to configure your azure access. Put your azure cosmos credentials.
 
-In `index.js` you will write your code, or you queries. Below, we show a index start body.
+In `index.js` you will write your code, or your queries. Below, we show an index start body.
 
 ```js
 require('./lib')(async (db) => {
@@ -44,7 +44,7 @@ The `db` is a database factory to access your containers. You can have a lot of 
 ### db().Container(containerName)
 - containerName: string : Container name that you want to access
 
-The container just is a access to your functions about a container context.
+The container just is access to your functions about a container context.
 
 
 ### db().Container(containerName).query(query)
