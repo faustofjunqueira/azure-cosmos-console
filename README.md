@@ -60,23 +60,23 @@ Do a query in this container.
 ### db().Container(containerName).getById(id, partitionKey)
 *TODO*
 
-### db().Container(containerName).create(id, partitionKey)
+### db().Container(containerName).create
 *TODO*
 
-### db().Container(containerName).getBydeleteId(id, partitionKey)
+### db().Container(containerName).getBydeleteId
 *TODO*
 
-### db().Container(containerName).deleteByQuery(id, partitionKey)
+### db().Container(containerName).deleteByQuery
 *TODO*
 
-### db().Container(containerName).deleteByListId(id, partitionKey)
+### db().Container(containerName).deleteByListId
 *TODO*
 
-### db().Container(containerName).updateFields(id, partitionKey)
+### db().Container(containerName).updateFields
 *TODO*
 
-### db().Container(containerName).updateByQuery(id, partitionKey)
+### db().Container(containerName).updateByQuery
 *TODO*
 
-### db().Container(containerName).updateByList(id, partitionKey)
+### db().Container(containerName).upsertList
 *TODO*
