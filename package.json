@@ -12,6 +12,7 @@
   "dependencies": {
     "@azure/cosmos": "^3.15.0",
     "gremlin": "^3.5.1",
-    "ramda": "^0.27.2"
+    "ramda": "^0.27.2",
+    "uuid": "^8.3.2"
   }
 }
